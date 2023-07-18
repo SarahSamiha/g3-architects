@@ -128,9 +128,20 @@ main{
     font-weight: #424242;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
-
+.sponsors{
+    text-align: center;
+}
+.sponsors-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+}
+.sponsors-img-container img{
+    width: 165px;
+}
 
 
 
@@ -143,15 +154,18 @@ main{
     header{
         padding: 20px;
     }
-    nav, .teams-container{
+    nav, .teams-container, .facts-card-container, .sponsors-img-container{
         flex-direction: column;
     }
     .teams-img-container{
         grid-template-columns: 1fr;
     }
-    .teams-content{
+    .teams-content, .facts-card-container{
         padding-right: 20px;
         padding-left: 20px;
+    }
+    .facts-card-container{
+        gap: 20px;
     }
     
     
